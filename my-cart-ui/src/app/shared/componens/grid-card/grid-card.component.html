@@ -1,0 +1,29 @@
+<div class="row" m-1>
+    <mat-card *ngFor="let record of allRecord" class="product" m-2>
+        <mat-card-header>
+            <div mat-card-avatar style="background-color: lavender;"></div>
+            <mat-card-title style="background-color: rgb(93, 13, 117);color: whitesmoke;">{{record.name}}</mat-card-title>
+            <mat-card-subtitle style="background-color: lavender;">{{record.cost}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            {{record.description}}
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button color="primary" (click)="sendToProduct(record)"
+            *ngIf="tabType != 'my-cart'">
+                add to cart</button>
+            <span *ngIf="tabType == 'my-cart'">
+                <button mat-mini-fab (click)="addQty(record)" style="background-color:rgb(226, 152, 55);">
+                    <mat-icon>add</mat-icon>
+                </button>
+                <span style="font-size: 25px;margin: 5px;">
+                    {{record.qty}}
+                </span>
+                <button mat-mini-fab (click)="removeQty(record)" style="background-color:rgb(226, 152, 55);">
+                    <mat-icon>remove</mat-icon>
+                </button>
+            </span>
+            <button mat-raised-button style="background-color: rgb(26, 153, 26); color:white"> order now </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

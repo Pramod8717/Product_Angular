@@ -1,0 +1,74 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "watch": [
+        {
+          "id": 3,
+          "name": "boAt Wave Lite Smartwatch",
+          "cost": "2000",
+          "description": "boAt Wave Lite Smartwatch with 1.69 HD Display, Sleek Metal Body, HR & SpO2 Level Monitor, 140+ Watch Faces, Activity Tracker, Multiple Sports Modes, IP68 & 7 Days Battery Life"
+        },
+        {
+          "id": 4,
+          "name": "Noise ColorFit Smartwatch",
+          "cost": "3000",
+          "description": "Noise ColorFit Pulse Grand Smart Watch with 1.69 (4.29cm) HD Display, 60 Sports Modes, 150 Watch Faces, Fast Charge, Spo2, Stress, Sleep, Heart Rate Monitoring & IP68 Waterproof"
+        },
+        {
+          "id": 5,
+          "name": "Fire-Boltt Ninja 3 Smartwatch ",
+          "cost": "1800",
+          "description": "Fire-Boltt Ninja 3 Smartwatch Full Touch 1.69” & 60 Sports Modes with IP68, Sp02 Tracking, Over 100 Cloud based watch faces"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "headphones": [
+        {
+          "id": 6,
+          "name": "boAt Rockerz 550 ",
+          "cost": "1699",
+          "description": "boAt Rockerz 550 Over Ear Bluetooth Headphones with Upto 20 Hours Playback, 50MM Drivers, Soft Padded Ear Cushions and Physical Noise Isolation"
+        },
+        {
+          "id": 7,
+          "name": "boAt Bassheads 900 ",
+          "cost": "1999",
+          "description": "boAt Bassheads 900 Wired On Ear Headphones with Mic"
+        },
+        {
+          "id": 8,
+          "name": "Sony MDR-ZX110A",
+          "cost": "2299",
+          "description": "Sony MDR-ZX110A Wired On Ear Headphone without Mic"
+        }
+      ]
+    }
+  ],
+  "order": [],
+  "my-cart": [
+    {
+      "id": 8,
+      "name": "Sony MDR-ZX110A",
+      "cost": "2299",
+      "description": "Sony MDR-ZX110A Wired On Ear Headphone without Mic",
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "name": "boAt Rockerz 550 ",
+      "cost": "1699",
+      "description": "boAt Rockerz 550 Over Ear Bluetooth Headphones with Upto 20 Hours Playback, 50MM Drivers, Soft Padded Ear Cushions and Physical Noise Isolation",
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "name": "boAt Wave Lite Smartwatch",
+      "cost": "2000",
+      "description": "boAt Wave Lite Smartwatch with 1.69 HD Display, Sleek Metal Body, HR & SpO2 Level Monitor, 140+ Watch Faces, Activity Tracker, Multiple Sports Modes, IP68 & 7 Days Battery Life",
+      "qty": 1
+    }
+  ]
+}

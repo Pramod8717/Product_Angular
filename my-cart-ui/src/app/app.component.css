@@ -1,0 +1,18 @@
+.header{
+    background-color: purple;
+    color: whitesmoke;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer{
+    background-color: purple;
+    color: whitesmoke;
+    bottom: 0%;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+    z-index: 1000;
+}
